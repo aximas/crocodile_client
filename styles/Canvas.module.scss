@@ -1,0 +1,27 @@
+.rootWrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+
+  @media screen and (max-width: 988px) {
+    align-items: flex-start;
+  }
+}
+
+.root {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #ccc;
+
+  @media screen and (max-width: 988px) {
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+.btn {
+  margin-top: 20px;
+  max-width: 320px;
+}

@@ -1,0 +1,73 @@
+.game {
+  display: grid;
+  grid-template-columns: 29% 69%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 2%;
+  height: 100vh;
+  padding: 40px;
+
+  @media screen and (max-width: 988px) {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+.chat {
+  background-color: #fff;
+  border-radius: 8px;
+  height: calc(100vh - 80px);
+
+  @media screen and (max-width: 988px) {
+    height: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+.chatTitle {
+  padding: 20px 30px;
+  border-bottom: 1px solid #220022;
+  margin-bottom: 30px;
+}
+
+.chatMessage {
+  height: calc(100% - 200px);
+  overflow-y: scroll;
+
+  @media screen and (max-width: 988px) {
+    height: 200px;
+  }
+}
+
+.chatItem {
+  padding: 20px;
+
+  p {
+    margin-top: 5px;
+  }
+}
+
+.chatInput {
+  padding: 20px;
+
+  input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 4px;
+  }
+
+  button {
+    width: 100%;
+    cursor: pointer;
+  }
+}
+
+.canvas {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+
+  @media screen and (max-width: 988px) {
+    height: 100%;
+    border-radius: 0 0 8px 8px;
+  }
+}

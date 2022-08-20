@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.description {
+  font-weight: 700;
+  font-size: 24px;
+  color: #5e225b;
+}
+
+.btn {
+  margin-top: 12px;
+  padding: 20px 24px;
+  background: #ffffff;
+  box-shadow: 0px 6px 1px rgba(255, 255, 255, 0.25);
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.startGameBtn {
+  font-size: 20px;
+}
+
+.link {
+  color: pink;
+}
