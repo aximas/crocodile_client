@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      socketRef.current = io("http://localhost:3003");
+      socketRef.current = io("https://shrouded-falls-37608.herokuapp.com/");
 
       socketRef.current.on("clear_canvas", () => {
         if (canvasCtxRef.current) {
